@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+header {
+    background-color:#FFFFFF;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    box-shadow: 0px 2px 3px rgb(207, 205, 205);       
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:auto ;    
+}
+.logo {
+    margin-inline-start: 3%;
+    margin-top: 1%;
+}
+.button {
+     display: flex;  
+     justify-content: space-between; 
+     align-items: center;
+     
+}       
+.button1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   margin: 20px;  
+}  
+input {
+    background-color:#0a98fe31;
+    color:#0A99FE; 
+    text-align: center;
+    margin-right: 5px ;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;  
+    border-radius: 6px;
+    border: none;             
+}    
+input:hover {
+    background-color: #0A99FE; 
+    color:aliceblue
+}
+.Paintings{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    width: 100%;    
+}
+.ActionFigures{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    width: 100%;    
+}
+.Cards{
+    background-color: rgb(194, 193, 193);
+    margin-inline-start: auto;
+    text-align: center;
+    width:207px;
+    height:275px;   
+    border-radius: 6px;
+}
+.img{      
+    width: 100%;
+    height: 60%;
+    border-top-left-radius:  6px;
+    border-top-right-radius: 6px;
+}
+section{
+      overflow-x: auto;
+}
+h2{
+   font-family: roboto, sans-serif;
+}
+h4{
+    font-family: roboto, sans-serif;
+}
+p{
+  font-family: roboto, sans-serif;
+}
+
+
+
